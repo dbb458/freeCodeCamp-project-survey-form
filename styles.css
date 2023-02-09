@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+  }
+  
+  #title, #description {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  #survey-form {
+    margin: 0 auto;
+    padding-bottom: 2em;
+    width: 60vw;
+    min-width: 400px;
+    max-width: 600px;
+  }
+  
+  #survey-form p {
+    margin: 1em 0 1em 0;
+  }
+  
+  input, select {
+    width: 100%;
+  }
+  
+  #name-label,
+  #email-label,
+  #number-label {
+    margin: 1em 0 1em 0;
+  }
+  
+  #name,
+  #email,
+  #number {
+    margin-top: .5em;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: unset;
+  }
+  
+  .radiobox-label, .checkbox-label {
+    margin: .2em 0 .2em 0;
+  } 
+  
+  textarea {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  .inline {
+    vertical-align: middle;
+    margin-right: .5em;
+  }
+  
+  #submit {
+    padding: 5px;
+  }
